@@ -34,7 +34,7 @@ class HomeController extends Controller
 
           $pusher = new Pusher('bcec8ee6a59627ab4a9d', '751ea079c875fa8570b2', '1004541',[
             'cluster' => 'ap2',
-            'encrypted' => true
+            'useTLS' => true
 
           ]);
 

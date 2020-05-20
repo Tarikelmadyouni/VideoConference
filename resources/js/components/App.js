@@ -117,7 +117,7 @@ const APP_KEY = 'bcec8ee6a59627ab4a9d';
                             peer.destroy();
 
                           this.peers[userId]=undefined;
-                   });
+                   })
 
                    return peer;
               }
@@ -135,7 +135,7 @@ const APP_KEY = 'bcec8ee6a59627ab4a9d';
 
              {[1,2,3,4,].map((userId) => {
 
-         return this.user.id != userId ? <button onClick={()=>this.callTo(userId)}>Appel {userId}</button>:null;
+         return this.user.id != userId ? <button onClick={()=>this.callTo(userId)}key={userId}>Appel {userId}</button>:null;
             })}
 
         <div className="video-container">

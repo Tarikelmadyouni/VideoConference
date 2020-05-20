@@ -78728,7 +78728,8 @@ var App = /*#__PURE__*/function (_Component) {
         return _this5.user.id != userId ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
           onClick: function onClick() {
             return _this5.callTo(userId);
-          }
+          },
+          key: userId
         }, "Appel ", userId) : null;
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "video-container"
