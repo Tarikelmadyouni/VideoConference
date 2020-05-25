@@ -78596,7 +78596,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
-var APP_KEY = 'bcec8ee6a59627ab4a9d';
+var APP_KEY = '23897c6556c8a57f7d73';
 var App = /*#__PURE__*/function (_Component) {
   _inherits(App, _Component);
 
@@ -78653,7 +78653,7 @@ var App = /*#__PURE__*/function (_Component) {
 
       this.pusher = new pusher_js__WEBPACK_IMPORTED_MODULE_3___default.a(APP_KEY, {
         authEndpoint: '/pusher/auth',
-        cluster: 'ap2',
+        cluster: 'eu',
         auth: {
           params: this.user.id,
           headers: {

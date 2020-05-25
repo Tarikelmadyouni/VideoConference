@@ -27,13 +27,14 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public function authenticale(Request $request){
+    public function authenticate(Request $request){
 
           $socketId = $request->socket_id;
           $channelName =$request->channel_name;
 
-          $pusher = new Pusher('bcec8ee6a59627ab4a9d', '751ea079c875fa8570b2', '1004541',[
-            'cluster' => 'ap2',
+          $pusher = new Pusher('23897c6556c8a57f7d73',  '73bd6af584248617fc54', '1005329', [
+
+            'cluster' => 'eu',
             'useTLS' => true
 
           ]);

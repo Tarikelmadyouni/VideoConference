@@ -4,7 +4,7 @@ import  MediaHandler from '../MediaHandler';
 import Pusher from 'pusher-js';
 import Peer from 'simple-peer';
 
-const APP_KEY = 'bcec8ee6a59627ab4a9d';
+const APP_KEY =  '23897c6556c8a57f7d73';
 
 
 
@@ -55,7 +55,7 @@ const APP_KEY = 'bcec8ee6a59627ab4a9d';
       setupPusher(){
           this.pusher = new Pusher(APP_KEY,{
              authEndpoint: '/pusher/auth',
-             cluster:'ap2',
+             cluster:'eu',
               auth:{
                  params:this.user.id,
                  headers:{
